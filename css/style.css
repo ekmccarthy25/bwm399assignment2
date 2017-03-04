@@ -1,0 +1,73 @@
+/* line 1, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+body {
+  background-color: lightgrey;
+}
+
+/* line 5, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* line 10, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+.carousel-inner img {
+  width: 100%;
+  /* Set width to 100% */
+  min-height: 200px;
+  opacity: 0.8;
+}
+
+/* line 21, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+#carousel-example {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* line 25, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+.footer-distributed {
+  background-color: #292c2f !important;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 25px 50px;
+  margin-top: 110px;
+}
+
+/* line 37, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+.footer-distributed .footer-left p {
+  color: #8f9296 !important;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media (max-width: 600px) {
+  /* line 49, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    text-align: center;
+  }
+  /* line 54, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  /* line 59, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+/* line 64, /Users/Erin/Desktop/bwm399/bwm399assignment2/scss/style.scss */
+.middle {
+  background-color: darkred;
+  color: white;
+  margin-right: -30px;
+  margin-left: -30px;
+  padding: 25px;
+}
+
+/*# sourceMappingURL=../css/style.map */

@@ -1,0 +1,70 @@
+body {
+    background-color: lightgrey;
+}
+  
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+        opacity: 0.8;
+    }
+
+  
+    @media (max-width: 600px) {
+      
+      }
+        
+            #carousel-example {max-width:1180px;
+            margin: 0 auto;
+      }
+
+.footer-distributed {
+	background-color: #292c2f !important;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 25px 50px;
+	margin-top: 110px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296 !important;
+	font-size: 14px;
+	margin: 0;
+}
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+.middle {
+    background-color: darkred;
+    color: white;
+    margin-right: -30px;
+    margin-left: -30px;
+    padding: 25px;
+}
